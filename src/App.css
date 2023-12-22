@@ -1,6 +1,18 @@
 .App {
   text-align: center;
+  box-sizing: border-box;
+  width: 100vw;
 }
+
+/* .displayHandling{
+  width: 100vw;
+} */
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
 
 .App-logo {
   height: 40vmin;
